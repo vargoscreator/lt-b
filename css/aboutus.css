@@ -1,0 +1,228 @@
+.about{
+    padding: 80px 0 60px;
+}
+.about__bg{
+    background-image: url('../images/about/about-t-hero_d.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about__title{
+    color: #fff;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 1.17;
+}
+.about_us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_us__descr{
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 760px;
+    color: rgb(48, 48, 48);
+    font-family: Georgia;
+    margin-bottom: 90px;
+}
+.about_us__descr span{
+    font-weight: 700;
+}
+.about_us__descr br:first-child{
+    display: none;
+}
+.about_us-btn{
+    text-align: center;
+}
+.about_us-btn--link{
+    padding: 20px 60px;
+    color:#ffffff;
+    background-color:#0a5251;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.meet{
+    padding: 150px 0 50px 0;
+}
+.meet__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.meet__item{
+    max-width: 260px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.meet__name{
+    font-size: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.meet__descr{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    color: rgb(122, 122, 122);
+}
+.meet__img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 30px;
+}
+.meet__image{
+    width: 200px;
+    height: 200px;
+}
+.meet__title{
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    line-height: 30px;
+    margin-bottom: 90px;
+}
+@media (max-width: 1258px) {
+    .meet__item {
+        margin: 5px;
+    }
+}
+@media (max-width: 1140px) {
+    .meet__img {
+        margin: 24px;
+    }
+}
+@media (max-width: 1091px) {
+    .meet__img {
+        margin: 16px;
+    }
+}
+@media (max-width: 1025px) {
+    .meet__title {
+        margin-bottom: 30px;
+    }
+    .meet__block {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 90px;
+    }
+    .meet__item {
+        width: 50%;
+        box-sizing: border-box; 
+        padding: 10px;
+    }
+}
+@media (max-width: 862px) {
+    .meet__img {
+        width: 150px;
+        height: 150px;
+        margin: 30px;
+    }
+    .meet__image {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (max-width: 880px) {
+    .about{
+        padding-top: 0px;
+    }
+}
+@media (max-width: 696px) {
+    .meet__block {
+        align-items: start;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+}
+@media (max-width: 600px) {
+    .meet__img {
+        margin: 10px;
+    }
+    .meet__item{
+        max-width: 225px;
+    }
+}
+@media (max-width: 527px) {
+    .about__title{
+        font-size: 40px;
+    }
+    .about_us__descr{
+        font-size: 14px;
+        line-height: 22px;
+        position: relative;
+        padding-top: 60px;
+    }
+    .about_us__descr::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        max-width: 100px;
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+    }
+    
+    .about_us__descr span{
+        font-weight: 700;
+    }
+    .about_us__descr br:nth-child(2n) {
+        display: none;
+    }
+    .about_us__descr br:nth-child(4n) {
+        display: block;
+    }
+    .about_us__descr br:nth-of-type(13) {
+        display: none;
+    }
+    .about_us__descr br:first-child{
+        display: block;
+    }
+    .meet__item{
+        max-width: 40%;
+    }
+    .meet__name{
+        font-size: 16px;
+        font-size: 16px;
+    }
+    .meet__descr{
+        line-height: 19px;
+        font-size: 12px;
+    }
+    .meet__img {
+        width: 127px;
+        height: 127px;
+    }
+    .meet__image {
+        width: 127px;
+        height: 127px;
+    }
+    .meet__title {
+        font-size: 30px;
+    }
+}
+@media (max-width: 446px) {
+    .meet__block{
+        justify-content: space-between;
+    }
+}

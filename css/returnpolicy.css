@@ -1,0 +1,36 @@
+.return{
+    padding: 170px 0 60px;
+}
+.return__title{
+    color: rgb(48, 48, 48);
+    line-height: 1.23;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.return__descr{
+    font-weight: 300;
+    color: #000000;
+    font-size: 18px;
+    line-height: 22px;
+}
+.return__descr a{
+    font-weight: 700;
+    color: rgb(52, 159, 186);
+    white-space:nowrap;
+}
+@media (max-width: 527px) {
+    .return{
+        padding-top: 90px;
+    }
+    .return__title{
+        font-size: 22px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .return__descr{
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

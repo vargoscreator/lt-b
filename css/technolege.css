@@ -1,0 +1,224 @@
+.technolege__img{
+    padding: 80px 0 60px;
+}
+.technolege__bg{
+    background-image: url('../images/technolege/technolege.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.technolege__bg::after{
+    position: absolute;
+    content: '';
+    row-gap: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.50), rgba(0,0,0,0.50));
+    background-image: -o-linear-gradient(top, rgba(0,0,0,0.50), rgba(0,0,0,0.50));
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.50), rgba(0,0,0,0.50));
+    background-image: linear-gradient(top, rgba(0,0,0,0.50), rgba(0,0,0,0.50));
+}
+.technolege{
+    padding: 100px 0 60px;
+}
+.technolege__title{
+    color: rgb(48, 48, 48);
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.technolege__block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px 0;
+}
+
+.technolege__item-num{
+    background-color:#afe6db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.technolege__item-num div{
+    padding: 25px;
+    font-size: 20px;
+    line-height: 60px;
+    color: #000;
+    font-weight: 600;
+}
+.technolege__item{
+    max-width: 360px;
+    display: flex;
+}
+.technolege__item-title {
+    color: rgb(48, 48, 48);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.35;
+    margin-bottom: 13px;
+}
+.technolege__item-descr {
+    font-size: 16px;
+    line-height: 1.55;
+    line-height: 20px;
+    font-weight: 300;
+}
+.photocatalytic__inner,
+.hydroxylradicals__inner,
+.superoxide__inner,
+.hydrogenperoxides__inner,
+.trioxygen__inner,
+.ionization__inner,
+.ultravioletlight__inner,
+.hepafiltration__inner,
+.activatedcharcoal__inner {
+    max-width: 1160px;
+    padding: 60px 0;
+}
+.photocatalytic__title,
+.hydroxylradicals__title,
+.superoxide__title,
+.hydrogenperoxides__title,
+.trioxygen__title,
+.ionization__title,
+.ultravioletlight__title,
+.hepafiltration__title,
+.activatedcharcoal__title {
+    color: rgb(48, 48, 48);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.photocatalytic__descr,
+.hydroxylradicals__descr,
+.superoxide__descr,
+.hydrogenperoxides__descr,
+.trioxygen__descr,
+.ionization__descr,
+.ultravioletlight__descr,
+.hepafiltration__descr,
+.activatedcharcoal__descr {
+    line-height: 22px;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(48, 48, 48); 
+    text-align: center;
+    font-family: Georgia, sans-serif    ;
+}
+.photocatalytic__img,
+.hydroxylradicals__img,
+.superoxide__img,
+.hydrogenperoxides__img,
+.trioxygen__img,
+.ionization__img,
+.ultravioletlight__img,
+.hepafiltration__img {
+    width: 100%;
+}
+@media (max-width: 1137px) {
+    .technolege__block{
+        justify-content: center;
+        gap: 60px 60px;
+    }
+}
+@media (max-width: 880px) {
+    .technolege__img{
+        padding-top: 0;
+    }
+}
+@media (max-width: 836px) {
+    .technolege__item{
+        max-width: 650px;
+    }
+    .technolege__item-num{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 527px) {
+    .technolege__title{
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .technolege__item-title{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 7px;
+    }
+    .technolege__item-descr {
+        font-size: 12px;
+        line-height: 1.45;
+    }
+    .technolege__item-content p{
+        font-size: 12px;
+        line-height: 1.45;
+    }
+    .technolege__item-num{
+        margin-right: 10px;
+    }
+    .technolege__item-num div{
+        font-size: 18px;
+    }
+
+
+
+
+    .photocatalytic__inner,
+    .hydroxylradicals__inner,
+    .superoxide__inner,
+    .hydrogenperoxides__inner,
+    .trioxygen__inner,
+    .ionization__inner,
+    .ultravioletlight__inner,
+    .hepafiltration__inner,
+    .activatedcharcoal__inner {
+        max-width: 1160px;
+        padding: 45px 0;
+    }
+
+    .photocatalytic__title,
+    .hydroxylradicals__title,
+    .superoxide__title,
+    .hydrogenperoxides__title,
+    .trioxygen__title,
+    .ionization__title,
+    .ultravioletlight__title,
+    .hepafiltration__title,
+    .activatedcharcoal__title {
+        font-size: 22px;
+        line-height: 18px;
+    }
+
+    .photocatalytic__descr,
+    .hydroxylradicals__descr,
+    .superoxide__descr,
+    .hydrogenperoxides__descr,
+    .trioxygen__descr,
+    .ionization__descr,
+    .ultravioletlight__descr,
+    .hepafiltration__descr,
+    .activatedcharcoal__descr {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+

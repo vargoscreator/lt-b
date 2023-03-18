@@ -1,0 +1,109 @@
+.missions{
+    padding: 195px 0 50px;
+}
+.missions__title{
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    line-height: 30px;
+    margin-bottom: 90px;
+}
+
+.missions__block {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    padding: 25px 25px;
+}
+
+
+.missions__item{
+    padding: 1px 2px;
+    max-width: 365px;
+    position: relative;
+}
+
+.missions__item-title{
+    font-weight: 700;
+    padding-top: 65px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    line-height: 40px;
+}
+.missions__item-descr{
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(94, 94, 94);
+}
+.missions__item::after{
+    position: absolute;
+    content: '';
+    color: rgb(175, 230, 219);
+    top: 35%;
+    left: 50%;
+    font-size: 182px;    
+    font-weight: 600;
+    z-index: -1;
+    opacity: 0.5;
+    transform: translate(-50%, -50%);
+}
+
+.missions__item:first-child:after{
+    content: '1';
+    z-index: 1;
+}
+.missions__item:nth-child(2n):after{
+    content: '2';
+    z-index: 1;
+}
+.missions__item:last-child:after{
+    content: '3';
+    z-index: 1;
+}
+@media (max-width: 932px) {
+    .missions__block {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }  
+    .missions__item {
+        max-width: 100%;
+    }
+    .missions__item::after{
+        top: 55%;
+        left: 50%; 
+        font-weight: 600;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 527px) {
+    .missions{
+        padding-top: 90px;
+    }
+    .missions__title{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .missions__item {
+        max-width: 100%;
+    }
+    .missions__block {
+        padding: 0px;
+    }
+    .missions__item-title{
+        font-size: 24px;
+        line-height: 1.35;
+        font-weight: 700;
+        text-align: start;
+    }
+    .missions__item-descr{
+        font-size: 14px;
+        line-height: 18px;
+        text-align: start;
+    }
+    .missions__item::after{
+        top: 70px; 
+    }
+}

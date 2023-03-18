@@ -1,0 +1,119 @@
+.faq{
+    padding: 160px 0 160px;
+    display: flex;
+    align-items: center;
+}
+
+.faq__title{
+    color: rgb(54, 54, 54);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.23;
+    margin-bottom: 90px;
+}
+
+.faq__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faq__table{
+    max-width: 760px;
+}
+.faq__accordion {
+    color: rgb(54, 54, 54);
+    cursor: pointer;
+    padding: 27px 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.35;
+    transition: 0.4s;
+}
+.faq__btn{
+    position: relative;
+    padding: 20px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+.faq__btn:before, .faq__btn:after {
+    background-color: #29979e;
+    content: '';
+    height: 2px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 22px;
+}
+.faq__btn:after {
+    transform: rotate(90deg);
+}
+
+.faq__block:hover .faq__btn:before, .faq__block:hover .faq__btn:after{
+    background-color: rgb(255, 255, 255);
+}
+.faq__block:hover .faq__btn{
+    background-color: rgb(228, 228, 228);
+}
+
+.faq__block.active .faq__btn{
+    transform: rotate(-45deg);
+}
+
+.faq__panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: rgb(54, 54, 54);
+    font-family: Georgia, sans-serif;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.55;
+}
+.faq__panel p{
+    padding-bottom: 20px;
+}
+.faq__panel ul{
+    padding-bottom: 20px;
+}
+.faq__item:first-child .faq__panel{
+    padding: 0px 18px;
+}
+.faq__item .faq__panel a{
+    font-weight: 700;
+    color: rgb(41, 151, 158);
+}
+.faq__item .faq__panel span{
+    font-weight: 700;
+}
+hr {
+    border-top: 1px solid #eeeeee;
+    margin: 0;
+}
+
+@media (max-width: 527px) {
+    .faq{
+        padding: 80px 0;
+    }
+    .faq__title{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .faq__accordion{
+        font-size: 20px;
+        padding: 15px 0;
+    }
+    .faq__btn {
+        margin-left: 40px;
+    }
+    .faq__panel{
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

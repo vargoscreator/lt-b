@@ -1,0 +1,40 @@
+.shippingpolicy{
+    padding: 140px 0 0;
+}
+.shippingpolicy__title {
+    color: rgb(48, 48, 48);
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.shippingpolicy__descr {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+}
+.shippingpolicy__descr a{
+    font-weight: 700;
+    color: #ff8562;
+}
+.shippingpolicy__descr p:last-of-type{
+    font-weight: 700;
+}
+.shippingpolicy__descr ul{
+    margin-left: 20px;
+}
+
+@media (max-width: 527px) {
+    .shippingpolicy{
+        padding-top: 60px;
+    }
+    .shippingpolicy__title{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .shippingpolicy__descr{
+        font-size: 14px;
+        line-height: 14px;
+    }
+}

@@ -1,0 +1,367 @@
+body{
+    min-width: 377px;
+}
+.blackdiamondlevels{
+    padding: 260px 0 0;
+}
+
+.blackdiamondlevels__end-descr{
+    display: none;
+}
+.blackdiamondlevels__title{
+    line-height: 1.23;
+    text-align: center;
+    color: rgb(54, 54, 54);
+    font-size: 40px;
+    padding-bottom: 35px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.blackdiamondlevels__item{
+    padding: 90px 0 20px;
+}
+.blackdiamondlevels__item-table th{
+    border: 1px solid #000000;
+    padding: 15px 13px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #424242;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    vertical-align: middle;
+}
+.blackdiamondlevels__item-table th:first-child{
+    padding: 15px 40px;
+    font-weight: 600;
+    font-size: 32px;
+    color: #fff;
+    width: 250px;
+    line-height: 30px;
+    text-shadow:0px 0px 3px #333333;
+}
+.blackdiamondlevels__item-table td{
+    border: 1px solid #272727;;
+    padding: 25px 15px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    color: #424242;
+    max-width: 200px;
+}
+.blackdiamondlevels__item-table tr{
+    white-space: nowrap;
+}
+.blackdiamondlevels__item-table th{
+    white-space: normal;
+}
+.blackdiamondlevels__item-total span{
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 20px;
+}
+.blackdiamondlevels__item-table:first-child th:first-child::after{
+    position: absolute;
+    content: '';
+    background-image: url('../images/blackdiamondlevels/1diamon.png');
+    background-size: cover;
+    background-position: center;
+    top: -10px;
+    bottom: -10px;
+    left: -10px;
+    right: -10px;
+    z-index: -1;
+}
+.blackdiamondlevels__item:first-child .blackdiamondlevels__item-table td:nth-child(2), .blackdiamondlevels__item:first-child .blackdiamondlevels__item-table td:nth-child(4),
+.blackdiamondlevels__item:first-child .blackdiamondlevels__item-total span{
+    color: #279392;
+}
+.blackdiamondlevels__item:nth-child(2) th:first-child::after{
+    position: absolute;
+    content: '';
+    background-image: url('../images/blackdiamondlevels/2diamons.png');
+    background-size: cover;
+    top: -10px;
+    bottom: -10px;
+    left: -10px;
+    right: -10px;
+    z-index: -1;
+}
+.blackdiamondlevels__item:nth-child(2) .blackdiamondlevels__item-table td:nth-child(2), .blackdiamondlevels__item:nth-child(2) .blackdiamondlevels__item-table td:nth-child(4),
+.blackdiamondlevels__item:nth-child(2) .blackdiamondlevels__item-total span{
+    color: #279392;
+}
+.blackdiamondlevels__item:nth-child(3) th:first-child::after{
+    position: absolute;
+    content: '';
+    background-image: url('../images/blackdiamondlevels/3diamons.png');
+    background-size: cover;
+    top: -10px;
+    bottom: -10px;
+    left: -10px;
+    right: -10px;
+    z-index: -1;
+}
+.blackdiamondlevels__item:nth-child(3) .blackdiamondlevels__item-table td:nth-child(2), .blackdiamondlevels__item:nth-child(3) .blackdiamondlevels__item-table td:nth-child(4),
+.blackdiamondlevels__item:nth-child(3) .blackdiamondlevels__item-total span{
+    color: #279392;
+}
+
+
+
+.blackdiamondlevels__back{
+    padding: 60px 0;
+    align-self: start;
+}
+.blackdiamondlevels__back-link{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.blackdiamondlevels__link{
+    position: relative;
+    color: rgb(82, 170, 199);
+    line-height: 50px;
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.blackdiamondlevels__item-total{
+    padding: 20px 30px;
+    text-align: right;
+    align-items: start;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #424242;
+}
+.blackdiamondlevels__descr{
+    line-height: 22px;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 1160px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    margin-top: 40px;
+}
+.blackdiamondlevels__btn{
+    text-align: center;
+}
+.blackdiamondlevels__btn a{
+    color: #ffffff;
+    background-color: #0a5251;
+    font-family: 'Arial',Arial,sans-serif;
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    margin:  0 auto;
+    padding: 20px 50px;
+}
+.blackdiamondlevels__btn-link{
+    text-transform: uppercase;
+}
+.blackdiamondlevels__end-title{
+    color: rgb(54, 54, 54);
+    font-family: Georgia, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.blackdiamondlevels__end-title a{
+    text-decoration: underline;
+    color: rgb(14, 105, 128);
+}
+
+@media (max-width: 1143px) {
+    .blackdiamondlevels__table th{
+        padding: 5px 5px;
+    }
+    .blackdiamondlevels__table td{
+        border: 1px solid #272727;;
+        padding: 10px 10px;
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 900;
+        text-align: center;
+        vertical-align: middle;
+        max-width: 200px;
+    }
+    .blackdiamondlevels__table th.blackdiamondlevels__table-name{
+        padding: 10px 10px;
+        font-size: 16px;
+        line-height: 1.23;
+        width: 341px;
+        line-height: 16px;
+        text-align: left;
+    }
+    .blackdiamondlevels__table td:nth-of-type(1){
+        text-align: left;
+        font-weight: 300;
+        font-size: 15px;
+        width: 177px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .blackdiamondlevels__table{display: none;}
+    .blackdiamondlevels__table-mobile{display: block;}
+    .blackdiamondlevels__item-table th{
+        font-size: 14px;
+        line-height: 15px;
+        padding: 10px 15px;
+    }
+    .blackdiamondlevels__item-table th:first-child{
+        padding: 15px 10px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #fff;
+        width: 150px;
+    }
+    .blackdiamondlevels__item-table td{
+        font-size: 14px;
+        line-height: 1.23;
+        font-weight: 600;
+        padding: 10px 15px;
+    }
+    .blackdiamondlevels__item-total{
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .blackdiamondlevels__item-total span{
+        padding-left: 10px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+}
+@media (max-width: 795px) {
+    .blackdiamondlevels__item-table th:first-child {
+        width: 100px;
+    }
+}
+@media (max-width: 596px) {
+    /*  */
+    .blackdiamondlevels__table-mobile td:first-child {
+        padding: 5px 2px;
+        font-size: 8px;
+    }
+    .blackdiamondlevels__table-mobile th{
+        border: 1px solid #272727;
+        padding: 10px 10px;
+        font-family: Arial, sans-serif;
+        font-weight: 600;
+        line-height: 10px;
+        font-size: 8px;
+        color: #000;
+        position: relative;
+        overflow: hidden;
+        z-index: 2;
+        vertical-align: middle;
+    }
+    .blackdiamondlevels__table-mobile td{
+        border: 1px solid #272727;
+        padding: 5px 5px;
+        font-size: 8px;
+        line-height: 1.23;
+        font-weight: 600;
+        text-align: center;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .blackdiamondlevels__table-mobile tr:nth-child(2) td{
+        font-size: 8px;
+        font-weight: 200;
+    }
+    .blackdiamondlevels__table-mobile tr:first-child th:first-of-type{
+        border: none;
+    }
+    .blackdiamondlevels__table-mobile tr:nth-child(2) td:first-child{
+        border: none;
+    }
+    .blackdiamondlevels__table-mobile tr:nth-of-type(2){
+        text-align: center;
+    }
+    .blackdiamondlevels__item-table th{
+        line-height: 10px;
+        font-size: 8px;
+        padding: 5px 5px;
+    }
+    .blackdiamondlevels__item-table th:first-child{
+        padding: 5px 20px;
+        font-size: 8px;
+        line-height: 10px;
+        width: auto;
+    }
+    .blackdiamondlevels__item-table td{
+        padding: 5px 5px;
+        font-size: 8px;
+        line-height: 1.23;
+    }
+    .blackdiamondlevels__item-total{
+        padding: 5px 10px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .blackdiamondlevels__item-total span{
+        padding-left: 5px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 527px) {
+    .blackdiamondlevels{
+        padding: 120px 0 0;
+    }
+    .blackdiamondlevels__title {
+        font-size: 30px;
+    }
+    .blackdiamondlevels__descr{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .blackdiamondlevels__btn a{
+        font-size: 14px;
+        padding: 20px 25px;
+    }
+    .blackdiamondlevels__end-title{
+        font-size: 14px;
+    }
+    .blackdiamondlevels__btn a {
+        padding: 12px 25px;
+    }
+    .blackdiamondlevels__end-descr{
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .blackdiamondlevels__back{
+        padding: 30px 0;
+    }
+    .blackdiamondlevels__back-link{
+        text-align: center;
+    }
+    .blackdiamondlevels__link{
+        font-weight: 700;
+        font-size: 16px;
+    }
+}

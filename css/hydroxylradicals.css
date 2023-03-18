@@ -1,0 +1,36 @@
+.hydroxylradicals{
+    padding: 195px 0 50px;
+    text-align: center;
+}
+.hydroxylradicals__title{
+    font-size: 40px;
+    line-height: 1.23;
+    font-weight: 600;
+    color: rgb(48, 48, 48);
+    margin-bottom: 30px;
+}
+.hydroxylradicals__descr{
+    color: rgb(48, 48, 48);
+    font-family: Georgia, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    max-width: 1160px;
+    margin:  0 auto;
+    margin-bottom: 60px;
+}
+.hydroxylradicals__img{
+    max-width: 100%;
+}
+@media (max-width: 527px) {
+    .hydroxylradicals{
+        padding: 45px 0;
+    }
+    .hydroxylradicals__title{
+        font-size: 30px;
+    }
+    .hydroxylradicals__descr{
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
